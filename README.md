@@ -1,37 +1,33 @@
-# React Demo App
+⚙️ Project Setup Instructions
 
-A simple **React web application** built as a technical interview project to demonstrate the use of **functional components**, **React Hooks**, **API integration**, and **clean UI design**.
+Follow these steps to run the project locally:
 
----
+Clone the repository
 
-## 🚀 Features
+git clone https://github.com/FrazzAhmed1/React-Demo-App.git
+cd React-Demo-App
 
-### 🔐 Login Page
-- Validates a phone number (e.g., `+254712345678`).
-- Displays error messages for invalid input.
-- Redirects to the Main Page on successful login.
 
-### 📋 Main Page
-- Fetches data from the public API: [`https://jsonplaceholder.typicode.com/posts`](https://jsonplaceholder.typicode.com/posts).
-- Displays a searchable list of posts.
-- Dynamic filtering as the user types.
-- Clicking a post navigates to the Detail Page.
+Install dependencies
 
-### 📄 Detail Page
-- Fetches detailed info for a selected post.
-- Displays title and body.
-- Includes a “Back” button to return to the Main Page.
+npm install
 
----
 
-## 🧠 Tech Stack
-- **React** (Functional Components + Hooks)
-- **React Router DOM** for page navigation
-- **CSS3** for custom styling
-- **Jest + React Testing Library** for unit testing
-- **Fetch API** for external data requests
+Run the development server
 
----
+npm start
 
-## 📁 Project Structure
 
+The app will start on http://localhost:3000
+
+Run tests (optional)
+
+npm test
+
+
+Build for production (optional)
+
+npm run build
+
+
+This creates an optimized version in the /build folder.
